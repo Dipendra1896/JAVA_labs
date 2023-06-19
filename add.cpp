@@ -12,6 +12,8 @@ class Addition{
     };
 };
 int main(){
-    Addition a;
+    Addition a;..
     a.add();
-};
+};git remote add origin https://github.com/Dipendra1896/JAVA_labs.git
+git branch -M main
+git push -u origin mainorigin
