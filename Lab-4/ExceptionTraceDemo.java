@@ -14,7 +14,8 @@ class ExceptionTraceDemo{
         System.out.println("Exit printAverage().");    
     }
     public static void main(String[]args){
-        printAverage(100,10);
+        printAverage(100,0);
         System.out.println("Exit main().");
     }
 }
+
