@@ -19,13 +19,13 @@ public class TestZip {
         for(int i=0;i<filenames.length;i++){
             FileInputStream in = new FileInputStream(filenames[i]);
 
-            //Add ZIP entry to output straem.
+            //Add ZIP entry to output stream.
             out.putNextEntry(new ZipEntry(filenames[i]));
             
             //Transfer bytes from the file to the ZIP file
-            int leg;
-            while((leg = in.read(buf))>0){
-                out.write(buf,0,leg);
+            int len;
+            while((len = in.read(buf))>0){
+                out.write(buf,0,len);
             }
 
             //Complete the Entry

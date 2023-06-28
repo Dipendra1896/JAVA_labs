@@ -26,14 +26,14 @@ public class ZipRetrive{
             a=a+1;
         }
         if(a>0){
-            System.out.println("Error");
+            System.out.println("Files Unzipped");
             //Close the streams
             out.close();
             in.close();
         }
     }
         catch(IOException e){
-            System.out.println("Error");
+            System.out.println("Error!!");
 
         } 
 } 

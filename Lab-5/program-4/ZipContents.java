@@ -12,7 +12,7 @@ public class ZipContents {
             for(Enumeration entries = zf.entries(); entries.hasMoreElements();){
                 
                 //Get the Entry name
-                String zipEntryName =((zipEntry)entries.nextElement()).getName();
+                String zipEntryName =((ZipEntry)entries.nextElement()).getName();
                 System.out.println("name:" +zipEntryName);
             }
         }

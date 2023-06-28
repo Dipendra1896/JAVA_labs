@@ -3,7 +3,7 @@ public class DeserializeDemo{
     public static void main(String[] args) {
         Student e = null;
         try{
-            FileInputStream fileIn = new FileInputStream("Student.ser");
+            FileInputStream fileIn = new FileInputStream("Students.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
             e = (Student) in.readObject();
             in.close();
@@ -19,7 +19,7 @@ public class DeserializeDemo{
             c.printStackTrace();
             return;
         }
-        System.out.println("Deserialized Student...");
+        System.out.println("Deserialized Students...");
         System.out.println("Name: " + e.name);
         System.out.println("Address: " + e.address);
         System.out.println("Reg Num: " + e.regNum) ;
