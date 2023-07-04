@@ -1,0 +1,21 @@
+[33m52628a8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to origin/main
+[33m52628a8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{1}: reset: moving to origin/main
+[33m52628a8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: reset: moving to origin/main
+[33m191b83e[m HEAD@{3}: Branch: renamed refs/heads/main to refs/heads/main
+[33m191b83e[m HEAD@{5}: commit: JAVA labs
+[33m6ef8e16[m HEAD@{6}: Branch: renamed refs/heads/master to refs/heads/main
+[33m6ef8e16[m HEAD@{8}: Branch: renamed refs/heads/main to refs/heads/master
+[33m6ef8e16[m HEAD@{10}: commit: JAVA labs
+[33m47230ba[m HEAD@{11}: Branch: renamed refs/heads/master to refs/heads/main
+[33m47230ba[m HEAD@{13}: Branch: renamed refs/heads/master to refs/heads/master
+[33m47230ba[m HEAD@{15}: commit: JAVA LAB-5
+[33m026ce71[m HEAD@{16}: Branch: renamed refs/heads/master to refs/heads/master
+[33m026ce71[m HEAD@{18}: commit: JAVA labs
+[33m2074713[m HEAD@{19}: Branch: renamed refs/heads/master to refs/heads/master
+[33m2074713[m HEAD@{21}: Branch: renamed refs/heads/main to refs/heads/master
+[33m2074713[m HEAD@{23}: Branch: renamed refs/heads/master to refs/heads/main
+[33m2074713[m HEAD@{25}: Branch: renamed refs/heads/main to refs/heads/master
+[33m2074713[m HEAD@{27}: commit: dsa
+[33m571ab15[m HEAD@{28}: Branch: renamed refs/heads/master to refs/heads/main
+[33m571ab15[m HEAD@{30}: Branch: renamed refs/heads/master to refs/heads/master
+[33m571ab15[m HEAD@{32}: commit (initial): dsa labs
