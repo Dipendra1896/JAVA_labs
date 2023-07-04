@@ -1,10 +1,12 @@
 import java.awt.*;
+import java.awt.event.TextListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class TextFieldDemo extends Frame {
+public class TextFieldDemo extends Frame implements TextListener{
     private TextField input;
     private TextField echo;
+     private LayoutManager Layout;
 
     public TextFieldDemo() {
         // Instantiation

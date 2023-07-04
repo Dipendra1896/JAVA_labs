@@ -7,7 +7,7 @@ public class LabelDemo extends Frame {
     private Label Label3;
 
     public LabelDemo(){
-        //Installation
+        //Instantiation
         Layout = new GridLayout(7,1);
         Label1 = new Label("A Simple Label");
         Label2= new Label("A Label with LEFT alignment", Label.LEFT);
@@ -24,7 +24,7 @@ public class LabelDemo extends Frame {
     public static void main(String[] args){
         LabelDemo Id = new LabelDemo();
         Id.setVisible(true);
-        Id.setSize(400,400);
+        Id.setSize(600,600);
     }
     
 }
