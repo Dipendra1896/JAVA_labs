@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.awt.event.*;
 public class FlowLayoutExample extends Frame {
     //  Constructor
     public FlowLayoutExample(String title){
@@ -25,6 +26,14 @@ public class FlowLayoutExample extends Frame {
         add(b7);
         Button b8 = new Button("Button:8");
         add(b8);
+
+
+          addWindowListener(new WindowAdapter(){
+        public void windowClosing(WindowEvent e){
+            System.exit(0);//Exit the Application
+
+        }
+    });
     }
     public static void main(String[] args) {
         // Enter Your Code Here
