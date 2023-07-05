@@ -4,6 +4,7 @@ import javax.swing.*;
 public class BoxLayoutBasic extends Frame{
     public BoxLayoutBasic (String title){
         setLayout(new BoxLayout(this,BoxLayout.X_AXIS));
+        //setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
         
         add(new Button("1"));
         add(new Button("2"));
