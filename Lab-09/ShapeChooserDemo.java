@@ -6,6 +6,7 @@ public class ShapeChooserDemo extends Frame implements ItemListener {
     Choice c1,c2;
 	RectangleClass f1;
 	CircleClass f2;
+	SquareClass f3;
 public ShapeChooserDemo()
    {
       super( "Shapes Chooser Demo" );
@@ -14,9 +15,11 @@ public ShapeChooserDemo()
       
       f1= new RectangleClass();
 	  f2= new CircleClass();
+	  f3= new SquareClass();
 	  c1= new Choice();
 	  c1.add("Rectangle");
 	  c1.add("Circle");
+	  c1.add("Square");
 	  setLayout(new FlowLayout());
 	  add(c1);
 	  c1.addItemListener(this);
@@ -28,10 +31,17 @@ public ShapeChooserDemo()
 	  if(s.equals("Rectangle")){	
 		  f1.setVisible(true);
 		  f2.setVisible(false);
+		  f3.setVisible(false);
 	  }
 	  else if(s.equals("Circle")){		
 		  f1.setVisible(false);
 		  f2.setVisible(true);
+		  f3.setVisible(false);
+	  }	
+	  else if(s.equals("Square")){		
+		  f1.setVisible(false);
+		  f2.setVisible(false);
+		  f3.setVisible(true);
 	  }	
       
         addWindowListener(new WindowAdapter(){
@@ -70,6 +80,18 @@ class CircleClass extends Frame{
 		public void paint(Graphics g){
 		
 			g.setColor(Color.blue);
+			g.fillRect(70,100,200,150);
+		}
+}
+	class SquareClass extends Frame{
+
+		public SquareClass(){
+			
+			setSize(300,300);
+		}
+		public void paint(Graphics g){
+		
+			g.setColor(Color.red);
 			g.fillRect(70,100,150,150);
 		}
 }

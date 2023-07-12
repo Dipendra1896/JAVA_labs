@@ -1,5 +1,5 @@
 import java.awt.*;
-import java.awt.event.*;
+//import java.awt.event.*;
 
 public class RepaintExample extends Frame {
     private int x = 90;
