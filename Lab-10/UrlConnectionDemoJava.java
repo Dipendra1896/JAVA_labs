@@ -3,7 +3,7 @@ import java.io.*;
 public class UrlConnectionDemoJava{
     public static void main(String[]args){
         try{
-            URL url = new URL("https://www.google.com");
+            URL url = new URL("https://www.facebook.com");
             URLConnection urlConnection = url.openConnection();
             HttpURLConnection connection = null;
             if(urlConnection instanceof HttpURLConnection){
